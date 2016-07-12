@@ -3,7 +3,7 @@ package io.github.liam8.scala.utility.common
 /**
   * Stopwatch for logging elapsed time
   */
-object Stopwatch {
+class Stopwatch {
 
   private final val start = System.currentTimeMillis()
 
