@@ -11,6 +11,14 @@ class StopwatchTest {
     assertTrue(stopwatch.elapsedTime < 1)
     Thread.sleep(1000)
     assertTrue(stopwatch.elapsedTime() - 1 < 0.1)
+    println(stopwatch.elapsedTime())
   }
 
+  @Test
+  def testElapsedTimeString() = {
+    val stopwatch = new Stopwatch()
+    assertTrue(stopwatch.elapsedTimeString().isInstanceOf[String])
+    Thread.sleep(1000)
+    println(stopwatch.elapsedTimeString())
+  }
 }
