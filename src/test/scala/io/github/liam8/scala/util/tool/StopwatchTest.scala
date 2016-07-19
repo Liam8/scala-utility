@@ -1,4 +1,4 @@
-package io.github.liam8.scala.utility.common
+package io.github.liam8.scala.util.tool
 
 import org.junit.Assert._
 import org.junit.Test
