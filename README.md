@@ -1,2 +1,2 @@
 # scala-utility
-small utilities with scala
+small utilities with scala.
